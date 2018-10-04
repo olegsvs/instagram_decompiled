@@ -1,0 +1,230 @@
+package X;
+
+import com.facebook.forker.Process;
+import com.fasterxml.jackson.core.base.ParserMinimalBase;
+import org.webrtc.audio.WebRtcAudioRecord;
+
+/* renamed from: X.03s */
+public final class AnonymousClass03s {
+    /* renamed from: B */
+    public static String m228B(int i) {
+        switch (i) {
+            case 1:
+                return "MESSENGER_SEND_MESSAGE";
+            case 2:
+                return "MESSENGER_WARM_START";
+            case 3:
+                return "MESSENGER_COLD_START";
+            case 4:
+                return "MESSENGER_LUKE_WARM_START";
+            case 5:
+                return "MESSENGER_EXTERNAL_INTENT";
+            case 6:
+                return "MESSENGER_NAVIGATION_EVENT";
+            case WebRtcAudioRecord.DEFAULT_AUDIO_SOURCE /*7*/:
+                return "MESSENGER_NAVIGATION";
+            case 8:
+                return "MESSENGER_THREADLIST_TO_THREADVIEW";
+            case 10:
+                return "MESSENGER_EXTERNAL_TO_THREADVIEW";
+            case 11:
+                return "MESSENGER_THREADLIST_DB_FETCH";
+            case 17:
+                return "MESSENGER_THREAD_DATA_FETCH";
+            case Process.SIGCONT /*18*/:
+                return "MESSENGER_THREADLIST_DATA_FETCH";
+            case Process.SIGSTOP /*19*/:
+                return "MESSENGER_FIRST_COLD_START";
+            case 21:
+                return "MESSENGER_THREAD_LIST_FRAGMENT_CREATE";
+            case 23:
+                return "MESSENGER_THREAD_VIEW_FRAGMENT_CREATE";
+            case 25:
+                return "MESSENGER_THREAD_VIEW_MESSAGES_FRAGMENT_CREATE";
+            case 26:
+                return "MESSENGER_CANONICAL_PRESENCE_CHECKS";
+            case 27:
+                return "MESSENGER_DISPLAYED_PAGE_PRESENCE_ONLINE_VALUES";
+            case 28:
+                return "MESSENGER_CANONICAL_PRESENCE_DOUBLESTALE";
+            case 29:
+                return "MESSENGER_CANONICAL_PRESENCE_LASTREAD_STALE_MORETHANTHRESHOLD";
+            case 30:
+                return "MESSENGER_CANONICAL_PRESENCE_LASTREAD_STALE_LESSTHANTHRESHOLD";
+            case 31:
+                return "MESSENGER_CANONICAL_PRESENCE_LASTSENT_STALE_LESSTHANTHRESHOLD";
+            case 32:
+                return "MESSENGER_CANONICAL_PRESENCE_LASTSENT_STALE_MORETHANTHRESHOLD";
+            case 33:
+                return "MESSENGER_CANONICAL_NEW_PRESENCE_PUSH";
+            case ParserMinimalBase.INT_QUOTE /*34*/:
+                return "MESSENGER_CANONICAL_NO_PRESENCE";
+            case 36:
+                return "MESSENGER_USER_TYPING";
+            case ParserMinimalBase.INT_COMMA /*44*/:
+                return "MESSENGER_MAIN_ACTIVITY_CREATE";
+            case 45:
+                return "MESSENGER_HOME_CREATE_VIEW";
+            case 46:
+                return "MESSENGER_HOME_CREATE_VIEW_TO_ONACTIVITYCREATED";
+            case ParserMinimalBase.INT_SLASH /*47*/:
+                return "MESSENGER_HOME_ONACTIVITYCREATED";
+            case 48:
+                return "MESSENGER_HOME_ONACTIVITYCREATED_TO_THREAD_LIST_CREATE";
+            case 49:
+                return "MESSENGER_THREAD_LIST_LAYOUT";
+            case 50:
+                return "MESSENGER_THREAD_LIST_LAYOUT_TO_DRAW";
+            case 52:
+                return "MESSENGER_MESSAGE_SEND_EXPERIENCE";
+            case 57:
+                return "MESSENGER_THREAD_LIST_SCROLL";
+            case 61:
+                return "MESSENGER_LOCAL_MEDIA_LOAD";
+            case 62:
+                return "MESSENGER_CAMERA_PHOTO_PROCESSING";
+            case 63:
+                return "MESSENGER_CAMERA_VIDEO_PROCESSING";
+            case 64:
+                return "MESSENGER_CAMERA_EFFECT_PICKER_LOAD";
+            case 65:
+                return "MESSENGER_CAMERA_EFFECT_SEARCH";
+            case 66:
+                return "MESSENGER_CAMERA_EFFECT_FETCH_CACHE";
+            case 67:
+                return "MESSENGER_CAMERA_EFFECT_FETCH_NETWORK";
+            case 68:
+                return "MESSENGER_CAMERA_EFFECT_APPLY";
+            case 70:
+                return "MESSENGER_CAMERA_EFFECT_PICKER_FEATURED_LOAD";
+            case 71:
+                return "MESSENGER_CAMERA_EFFECT_PICKER_SECTION_LOAD";
+            case 75:
+                return "MESSENGER_MEASURE_PASS";
+            case 76:
+                return "MESSENGER_LAYOUT_PASS";
+            case 77:
+                return "MESSENGER_DRAW_PASS";
+            case 78:
+                return "MESSENGER_UI_DATA_REFRESH";
+            case 79:
+                return "MESSENGER_COMPONENTS_REFRESH";
+            case 81:
+                return "MESSENGER_THREAD_MESSAGES_SCROLL";
+            case 82:
+                return "MESSENGER_MESSENGER_ANDROID_FETCH_THREADSUMMARY_PERF";
+            case 83:
+                return "MESSENGER_MESSENGER_ANDROID_FETCH_MESSAGES_PERF";
+            case 84:
+                return "MESSENGER_MESSENGER_ANDROID_FETCH_USERLIST_PERF";
+            case 85:
+                return "MESSENGER_MESSENGER_ANDROID_FETCH_THREAD_WITHOUT_OPTIMIZATION";
+            case 86:
+                return "MESSENGER_MESSENGER_ANDROID_FETCH_THREAD_WITH_OPTIMIZATION";
+            case 88:
+                return "MESSENGER_ANDROID_OMNISTORE_COMPONENT_MANAGER_INIT";
+            case 89:
+                return "MESSENGER_ANDROID_OMNISTORE_ON_SENDER_AVAILABLE";
+            case 90:
+                return "MESSENGER_ANDROID_OMNISTORE_PROVIDE_SUBSCRIPTION_INFO";
+            case ParserMinimalBase.INT_LBRACKET /*91*/:
+                return "MESSENGER_ANDROID_OMNISTORE_ON_COLLECTION_AVAILABLE";
+            case ParserMinimalBase.INT_BACKSLASH /*92*/:
+                return "MESSENGER_ANDROID_OMNISTORE_COMPONENT_MANAGER_OPEN";
+            case 94:
+                return "MESSENGER_TINCAN_PRIVATE_ATTACHMENT_LOGGING";
+            case 95:
+                return "MESSENGER_LOADING_LATENCY";
+            case 97:
+                return "MESSENGER_ANDROID_TAB_NAVIGATION";
+            case ParserMinimalBase.INT_b /*98*/:
+                return "MESSENGER_INBOX_LOAD_MORE_WAIT";
+            case 99:
+                return "MESSENGER_MESSAGES_LOAD_MORE_WAIT";
+            case 106:
+                return "MESSENGER_INBOX_DISPLAY";
+            case 107:
+                return "MESSENGER_INBOX_DAY_UNIT_DISPLAY";
+            case 108:
+                return "MESSENGER_THREAD_LIST_DISPLAY";
+            case 112:
+                return "MESSENGER_FETCH_MORE_THREADS";
+            case ParserMinimalBase.INT_r /*114*/:
+                return "MESSENGER_THREADLIST_TO_THREADVIEW_V2";
+            case 119:
+                return "MESSENGER_CRITICAL_PATH_GRAPHQL_DELAY";
+            case 120:
+                return "MESSENGER_DELTA_APPLICATION_DONE";
+            case 122:
+                return "MESSENGER_CRITICAL_PATH_TASK_DELAY";
+            case 129:
+                return "MESSENGER_CAMERA_TIME_TO_CAPTURE_PHOTO";
+            case 132:
+                return "MESSENGER_CAMERA_TIME_TO_INTERACT";
+            case 133:
+                return "MESSENGER_CAMERA_TIME_BACK_FROM_PREVIEW";
+            case 134:
+                return "MESSENGER_CAMERA_TIME_TO_NATIVE_CAPTURE_PHOTO";
+            case 136:
+                return "MESSENGER_RTC_EFFECT_REMOVED";
+            case 137:
+                return "MESSENGER_ASSISTANT_VOICE_RESPONSE";
+            case 143:
+                return "MESSENGER_MESSAGE_SEND_PERFORMANCE_FUNNEL";
+            case 147:
+                return "MESSENGER_MEDIA_TRAY_INIT";
+            case 148:
+                return "MESSENGER_MEDIA_TRAY_PREPARE_ATTACHMENT";
+            case 149:
+                return "MESSENGER_DEEP_LINKING_THREAD_FETCH";
+            case 151:
+                return "MESSENGER_COLD_START_TO_THREADVIEW";
+            case 152:
+                return "MESSENGER_ANDROID_GROUP_CREATE_FLOW";
+            case 153:
+                return "MESSENGER_ANDROID_GROUP_SHARE_LINK_FLOW";
+            case 154:
+                return "MESSENGER_MEDIA_PICKER_INIT";
+            case 155:
+                return "MESSENGER_GROUP_MEMBER_REQUESTS";
+            case 156:
+                return "MESSENGER_REACTION";
+            case 157:
+                return "MESSENGER_REACTION_PANEL_SHOW_UP";
+            case 158:
+                return "MESSENGER_ANDROID_OMNIPICKER";
+            case 159:
+                return "MESSENGER_ANDROID_GROUP_ADD_MEMBERS_FLOW";
+            case 161:
+                return "MESSENGER_POSTCAPTURE_FACE_DETECTION";
+            case 162:
+                return "MESSENGER_THREADVIEW_TO_THREADLIST_BACK_NAV";
+            case 163:
+                return "MESSENGER_THREAD_METADATA_FETCH";
+            case 166:
+                return "MESSENGER_COLD_START_IN_BACKGROUND";
+            case 167:
+                return "MESSENGER_CRITICAL_PATH_ACTIVE";
+            case 168:
+                return "MESSENGER_CAMERA_TIME_TO_DISPLAY_PHOTO";
+            case 169:
+                return "MESSENGER_MEDIA_TRAY_SCROLL";
+            case 170:
+                return "MESSENGER_MEDIA_PICKER_SCROLL";
+            case 172:
+                return "MESSENGER_CAMERA_TIME_TO_START_VIDEO_CAPTURE";
+            case 173:
+                return "MESSENGER_CAMERA_TIME_TO_STOP_VIDEO_CAPTURE";
+            case 174:
+                return "MESSENGER_MONTAGE_AND_ACTIVE_NOW_LOADING_ANDROID";
+            case 179:
+                return "MESSENGER_MQTT_COLD_START_INIT";
+            case 180:
+                return "MESSENGER_ANDROID_SEQUENTIAL_RANKING_LOAD_TIME";
+            case 181:
+                return "MESSENGER_POST_CHROME_ANDROID";
+            default:
+                return "UNDEFINED_QPL_EVENT";
+        }
+    }
+}

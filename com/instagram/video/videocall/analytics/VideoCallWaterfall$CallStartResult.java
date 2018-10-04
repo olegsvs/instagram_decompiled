@@ -1,0 +1,16 @@
+package com.instagram.video.videocall.analytics;
+
+public enum VideoCallWaterfall$CallStartResult {
+    SUCCESS,
+    USER_CANCEL,
+    JOIN_ERROR_SERVER_ERROR,
+    VIDEO_CALL_IS_TERMINATED,
+    VIDEO_CALL_PERMISSION_DENIED,
+    RTC_ERROR,
+    VIDEO_CALL_IS_FULL,
+    CLIENT_ERROR,
+    VIDEO_CALL_ID_INVALID,
+    VIDEO_CALL_CONFLICT,
+    INELIGIBLE_RECIPIENTS,
+    ATTACH_ERROR_SERVER_ERROR
+}
